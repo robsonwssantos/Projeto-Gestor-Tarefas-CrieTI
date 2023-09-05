@@ -37,7 +37,7 @@ async function main(): Promise<void> {
           await categoriesMenu.execute(input);
           await tasksMenu.execute(input, await user);
           console.log(' ')
-          prompt('ATENÇÃO PRECIONE [ENTER] PARA CONTINUAR ');
+          prompt('ATENÇÃO PRECIONE [ENTER] PARA CONTINUAR');
         }
       } while (input != '0');
     }else{

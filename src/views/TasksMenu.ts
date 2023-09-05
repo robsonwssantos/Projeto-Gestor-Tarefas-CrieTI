@@ -56,6 +56,7 @@ export class TasksMenu {
       console.log('[4] Exibir tarefas por situação');
       console.log('[5] Exibir tarefas criadas por mim');
       console.log('[6] Exibir tarefas que sou executor');
+      console.log('');
       console.log('[0] VOLTAR AO MENU ANTERIOR');
       console.log('');
       control = prompt('Insira a opção desejada: ');
